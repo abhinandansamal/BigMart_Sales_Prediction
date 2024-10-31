@@ -36,12 +36,13 @@ The dataset consists of sales records for 2013, covering 1559 products across 10
 
 For a detailed description of each variable, please refer to the [Data Dictionary](docs/Data_Dictionary.docx) document.
 
+In this project, the data file is stored in an `AWS S3` bucket. The data is then ingested into a table within an `Amazon Redshift` cluster for further analysis.
 
 ## Approach and Methodology
 This project follows a comprehensive methodology from data extraction to model evaluation. Key steps include:
 
 1. **Data Extraction and Preprocessing**:
-    * Data retrieval from an Amazon Redshift database.
+    * Data retrieval from an `Amazon Redshift` data warehouse.
     * Cleaning and imputing missing values using SQL and Python.
 
 2. **Exploratory Data Analysis (EDA)**:
